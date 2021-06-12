@@ -29,6 +29,9 @@
         <div class="logo">
           <img src="images/logo.svg" alt="sunnyside logo">
         </div>
+        <div class="hamburger-menu">
+          <img src="images/icon-hamburger.svg" alt="hamburger icon"/>
+        </div>
         <nav>
           <ul class="navbar">
             <li><a href="#">About</a></li>
@@ -51,7 +54,7 @@
       <div class="container transform-info">
         <h3>Transform your <br> brand</h3>
         <p>
-          We are a full-service creative agency specializing in <br> helping brands grow fast. Engage your clients through <br> compelling visuals that do most of the marketing for you. 
+          We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through  compelling visuals that do most of the marketing for you. 
         </p>
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
@@ -78,7 +81,7 @@
       <div class="container standout-info">
         <h3>Stand out to the right <br> audience</h3>
         <p>
-          Using a colloborative formula of designers, researchers,<br> photographers, videographers, and copywriters, we'll build and extend your brand in digital places.
+          Using a colloborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.
         </p>
         <a href="#" class="btn btn-secondary">Learn More</a>
       </div>
@@ -92,7 +95,7 @@
       <div class="container">
         <h3>Graphic Design</h3>
         <p>
-          Great design makes you memorable. We deliver <br> artwork that underscores your brand message <br> and captures potential clients’ attention.
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
         </p>
       </div>
     </div>
@@ -100,7 +103,7 @@
       <div class="container">
       <h3>Photography</h3>
       <p>
-        Increase your credibility by getting the most <br> stunning, high-quality photos that improve <br> your business image.
+        Increase your credibility by getting the most  stunning, high-quality photos that improve your business image.
       </p>
       </div>
     </div>
@@ -199,19 +202,15 @@
 
 
 
+<script>
+  const navbar = document.querySelector('.navbar'); 
+  const menu = document.querySelector('.hamburger-menu');
 
+  menu.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-
+  
+</script>
 </body>
 </html>
