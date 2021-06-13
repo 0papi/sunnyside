@@ -402,7 +402,7 @@ ul li {
     display: block;
     position: fixed;
     top: 1em;
-    right: 1em;
+    right: 2em;
   }
 
 
@@ -427,7 +427,7 @@ ul li {
 
     position: relative;
     top: 30px;
-    left: 130px;
+    left: 100px;
 
     display: none;
 
@@ -457,11 +457,19 @@ ul li {
     background-color: var(--Yellow);
   }
 
+  .header-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   .header-down h2 {
     font-size: 2rem;
     margin-bottom: 2em;
     padding: 0 2em;
     letter-spacing: 10px;
+    text-align: center;
+
   }
 
   .header-down img {
@@ -501,7 +509,7 @@ ul li {
     background-image: url('../images/mobile/image-graphic-design.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     flex: 1;
   }
 
@@ -509,6 +517,7 @@ ul li {
     background-image: url('../images/mobile/image-photography.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     flex: 1;
   }
 
